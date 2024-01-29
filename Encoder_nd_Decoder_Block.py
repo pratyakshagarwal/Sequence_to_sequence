@@ -280,7 +280,7 @@ encoder_input_size = 100
 decoder_input_size = 110
 
 encoder_vocab_size = 1000
-decoder_vocab_size = 1100
+decoder_vocab_size = 900
 
 model = Transformer(
     input_vocab_size=encoder_vocab_size,
