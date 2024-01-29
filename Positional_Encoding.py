@@ -1,4 +1,4 @@
-# Import necessary library
+# Import necessary library for Transformers 
 import numpy as np
 import tensorflow as tf
 
