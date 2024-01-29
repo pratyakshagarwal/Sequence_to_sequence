@@ -1,3 +1,4 @@
+#Import important library
 import numpy as np
 import tensorflow as tf
 from Positional_Encoding import PositionalEmbedding
