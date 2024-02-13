@@ -1,7 +1,7 @@
 import numpy as np
 import tensorflow as tf
-from Transformers_parts.Positional_Encoding import PositionalEmbedding
-from Transformers_parts.Transformer_Attentions import CrossAttention, GlobalSelfAttention, CausalSelfAttention, FeedForward
+from Positional_Encoding import PositionalEmbedding
+from Transformer_Attentions import CrossAttention, GlobalSelfAttention, CausalSelfAttention, FeedForward
 
 class EncoderLayer(tf.keras.layers.Layer):
     """
@@ -275,6 +275,7 @@ def Transformer(
     output = tf.keras.layers.Dense(target_vocab_size)(decoder)
 
     return tf.keras.Model(inputs=inputs, outputs=output)
+
 
 encoder_input_size = 100
 decoder_input_size = 110

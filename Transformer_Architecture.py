@@ -3,7 +3,7 @@ import numpy as np
 from tensorflow import keras
 
 # Importing custom masking functions
-from masking import get_encoder_self_attention_mask,get_decoder_self_attention_mask, get_encoder_decoder_attention_mask
+from Transformers_parts.masking import get_encoder_self_attention_mask,get_decoder_self_attention_mask, get_encoder_decoder_attention_mask
 
 
 # Function for scaled dot-product attention
